@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- htmlでは最初にheadタグで文書の細かい情報をセットします -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 文字コードをUTF-8にセット(HTMLならこれ) -->
+	<title>フォーム</title>
+	<!-- titleタグの中身はタブに出てくる名前になります -->
+</head>
+<body>
+<!-- bodyの中身が本文になります -->
+<form action="soushin1-4.php" method="post">
+	<!-- フォーム作成 内容をsoushin.phpに送信 メソッドはpost←php側で説明-->
+	ひとこと入力してください:<br/>
+	<input type="text" name="hitokoto"/><br/>
+	<!-- hitokotoという名前(コードの中で使う名前)のテキストボックスを置く-->
+	<input type="submit" value="送信"/><br/>
+	<!-- 「送信」と書かれた送信ボタンを置く -->
+</form>
+</body>
+</html>
+<!-- 閉じタグも書こう -->
+
+<!-- <>で囲まれた奴らがタグ、タグ名の横に書く設定みたいなやつを属性と呼ぶのさ -->

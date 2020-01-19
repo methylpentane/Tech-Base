@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- コメント編集フォーム -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- 文字コードをUTF-8にセット -->
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<!-- キャッシュ強制消去 -->
+	<title>コメントの編集</title>
+</head>
+<body>
+	<h1>コメントの編集</h1>
+	<form action = "edit2-6.php" method = "post">
+		編集したい番号:
+		<input type="text" name="editNumber" size="5"><br/>
+		新しい書き込み内容↓<br/>
+		名前:<input type="text" name="name" size="10"/><br/>
+		コメント:<input type="text" name="comment"><br/>
+		設定したパスワードを入力:
+		<input type="password" name="password" size="10"/><br/>
+		<!-- <input type="hidden" name="mode" value="edit"> -->
+		<input type="submit" value="編集">
+	</form>
+</body>
+</html>
